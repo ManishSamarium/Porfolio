@@ -5,7 +5,7 @@ import keyproctorImg from "../assets/Keyproctoricon.jpg";
 import todoImg from "../assets/todo.jpg";
 import doctorImg from "../assets/doctor.png";
 import surveillanceImg from "../assets/surveillance.webp";
-import cvPdf from "../assets/Manishyadav_resume.pdf";
+import cvPdf from "../assets/Manish_Kumar_CV.pdf";
 
 
 
