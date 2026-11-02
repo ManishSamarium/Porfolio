@@ -7,6 +7,8 @@ import doctorImg from "../assets/doctor.png";
 import surveillanceImg from "../assets/surveillance.webp";
 import cvPdf from "../assets/Manish_Kumar_CV.pdf";
 
+
+
 export const personalInfo = {
   name: "Manish Yadav",
   role: "Full-Stack & AI/ML Engineer",
