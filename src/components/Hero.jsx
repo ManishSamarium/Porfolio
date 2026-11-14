@@ -232,7 +232,7 @@ export default function Hero() {
               </div>
 
               {/* Badge 2: Full-Stack Engineer (Top Right - shifted up above head to eliminate face overlap) */}
-              <div className="absolute -top-4.5 sm:top-6 -right-1.5 sm:-right-4 lg:-right-6 z-20 animate-float-delayed">
+              <div className="absolute -top-6.5 sm:top-6 -right-1.5 sm:-right-4 lg:-right-6 z-20 animate-float-delayed">
                 <div className="tech-pill flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1 sm:py-2 rounded-full border border-slate-200/90 dark:border-white/10 bg-white/95 dark:bg-slate-900/90 text-slate-800 dark:text-slate-100 text-[10px] sm:text-xs font-semibold shadow-md dark:shadow-emerald-950/40 backdrop-blur-md hover:border-emerald-500/50 transition-all select-none whitespace-nowrap">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 shrink-0" />
                   <Layers size={13} className="text-emerald-500 shrink-0" />
