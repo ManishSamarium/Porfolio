@@ -23,9 +23,12 @@ import {
  * 1. Go to https://web3forms.com (100% free, no credit card required)
  * 2. Enter your email: sam68iiitr@gmail.com to generate your access key
  * 3. Add to your .env file or Vercel Environment Variables:
- *    VITE_WEB3FORMS_ACCESS_KEY=your_access_key_here
+ *    WEB_WEB3FORMS_ACCESS_KEY=your_access_key_here
  */
-const WEB3FORMS_ACCESS_KEY = import.meta.env.WEB_WEB3FORMS_ACCESS_KEY || "";
+const WEB3FORMS_ACCESS_KEY = 
+  import.meta.env.WEB_WEB3FORMS_ACCESS_KEY || 
+  import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || 
+  "34b1e2f6-798f-44e5-aa34-e326fc08c88a";
 
 export default function Contact() {
   const { isDark } = useTheme();
@@ -89,7 +92,7 @@ export default function Contact() {
         setSubmissionStatus("error");
         if (!WEB3FORMS_ACCESS_KEY) {
           setErrorMessage(
-            "Web3Forms access key not configured. Add VITE_WEB3FORMS_ACCESS_KEY to your .env or Vercel Environment Variables. You can also contact me directly via sam68iiitr@gmail.com."
+            "Web3Forms access key not configured. Add WEB_WEB3FORMS_ACCESS_KEY to your .env or Vercel Environment Variables. You can also contact me directly via sam68iiitr@gmail.com."
           );
         } else {
           setErrorMessage(data.message || "Failed to send message. Please try again or email directly.");
