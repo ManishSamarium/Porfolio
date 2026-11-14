@@ -222,18 +222,18 @@ export default function Hero() {
 
               {/* FLOATING ROLE/DOMAIN BADGE PILLS (Software Developer, Full-Stack Engineer, Machine Learning, Deep Learning) */}
               
-              {/* Badge 1: Software Developer (Top Left) */}
-              <div className="absolute top-1 sm:top-2 left-0 sm:-left-4 lg:-left-6 z-20 animate-float-slow">
-                <div className="tech-pill flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-full border border-slate-200/90 dark:border-white/10 bg-white/95 dark:bg-slate-900/90 text-slate-800 dark:text-slate-100 text-[10px] sm:text-xs font-semibold shadow-md dark:shadow-cyan-950/40 backdrop-blur-md hover:border-cyan-500/50 transition-all select-none whitespace-nowrap">
+              {/* Badge 1: Software Developer (Top Left - positioned away from face and above shoulder) */}
+              <div className="absolute top-4 sm:top-2 -left-1.5 sm:-left-4 lg:-left-6 z-20 animate-float-slow">
+                <div className="tech-pill flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1 sm:py-2 rounded-full border border-slate-200/90 dark:border-white/10 bg-white/95 dark:bg-slate-900/90 text-slate-800 dark:text-slate-100 text-[10px] sm:text-xs font-semibold shadow-md dark:shadow-cyan-950/40 backdrop-blur-md hover:border-cyan-500/50 transition-all select-none whitespace-nowrap">
                   <span className="w-2 h-2 rounded-full bg-cyan-500 animate-ping shrink-0" />
                   <Code2 size={13} className="text-cyan-500 shrink-0" />
                   <span className="font-mono tracking-tight">Software Developer</span>
                 </div>
               </div>
 
-              {/* Badge 2: Full-Stack Engineer (Top Right) */}
-              <div className="absolute top-8 sm:top-10 right-0 sm:-right-4 lg:-right-6 z-20 animate-float-delayed">
-                <div className="tech-pill flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-full border border-slate-200/90 dark:border-white/10 bg-white/95 dark:bg-slate-900/90 text-slate-800 dark:text-slate-100 text-[10px] sm:text-xs font-semibold shadow-md dark:shadow-emerald-950/40 backdrop-blur-md hover:border-emerald-500/50 transition-all select-none whitespace-nowrap">
+              {/* Badge 2: Full-Stack Engineer (Top Right - shifted up above head to eliminate face overlap) */}
+              <div className="absolute -top-2.5 sm:top-6 -right-1.5 sm:-right-4 lg:-right-6 z-20 animate-float-delayed">
+                <div className="tech-pill flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1 sm:py-2 rounded-full border border-slate-200/90 dark:border-white/10 bg-white/95 dark:bg-slate-900/90 text-slate-800 dark:text-slate-100 text-[10px] sm:text-xs font-semibold shadow-md dark:shadow-emerald-950/40 backdrop-blur-md hover:border-emerald-500/50 transition-all select-none whitespace-nowrap">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 shrink-0" />
                   <Layers size={13} className="text-emerald-500 shrink-0" />
                   <span className="font-mono tracking-tight">Full-Stack Engineer</span>
@@ -241,8 +241,8 @@ export default function Hero() {
               </div>
 
               {/* Badge 3: Machine Learning (Bottom Left) */}
-              <div className="absolute bottom-10 sm:bottom-12 left-0 sm:-left-4 lg:-left-6 z-20 animate-float-delayed">
-                <div className="tech-pill flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-full border border-slate-200/90 dark:border-white/10 bg-white/95 dark:bg-slate-900/90 text-slate-800 dark:text-slate-100 text-[10px] sm:text-xs font-semibold shadow-md dark:shadow-amber-950/40 backdrop-blur-md hover:border-amber-500/50 transition-all select-none whitespace-nowrap">
+              <div className="absolute bottom-8 sm:bottom-12 -left-1.5 sm:-left-4 lg:-left-6 z-20 animate-float-delayed">
+                <div className="tech-pill flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1 sm:py-2 rounded-full border border-slate-200/90 dark:border-white/10 bg-white/95 dark:bg-slate-900/90 text-slate-800 dark:text-slate-100 text-[10px] sm:text-xs font-semibold shadow-md dark:shadow-amber-950/40 backdrop-blur-md hover:border-amber-500/50 transition-all select-none whitespace-nowrap">
                   <span className="w-2 h-2 rounded-full bg-amber-500 shrink-0" />
                   <Brain size={13} className="text-amber-500 shrink-0" />
                   <span className="font-mono tracking-tight">Machine Learning</span>
@@ -251,7 +251,7 @@ export default function Hero() {
 
               {/* Badge 4: Deep Learning (Bottom Right) */}
               <div className="absolute -bottom-2 right-0 sm:-right-3 lg:-right-6 z-20 animate-float-slow">
-                <div className="tech-pill flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-full border border-slate-200/90 dark:border-white/10 bg-white/95 dark:bg-slate-900/90 text-slate-800 dark:text-slate-100 text-[10px] sm:text-xs font-semibold shadow-md dark:shadow-purple-950/40 backdrop-blur-md hover:border-purple-500/50 transition-all select-none whitespace-nowrap">
+                <div className="tech-pill flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1 sm:py-2 rounded-full border border-slate-200/90 dark:border-white/10 bg-white/95 dark:bg-slate-900/90 text-slate-800 dark:text-slate-100 text-[10px] sm:text-xs font-semibold shadow-md dark:shadow-purple-950/40 backdrop-blur-md hover:border-purple-500/50 transition-all select-none whitespace-nowrap">
                   <span className="w-2 h-2 rounded-full bg-purple-500 animate-pulse shrink-0" />
                   <Cpu size={13} className="text-purple-500 shrink-0" />
                   <span className="font-mono tracking-tight">Deep Learning</span>

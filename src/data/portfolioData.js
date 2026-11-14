@@ -39,7 +39,7 @@ export const floatingBadges = [
     color: "from-cyan-500 to-blue-500", 
     dotColor: "bg-cyan-400",
     positionDesktop: "top-2 -left-4 sm:-left-6 lg:-left-8", 
-    positionMobile: "top-1 left-0", 
+    positionMobile: "top-4 -left-1.5", 
     animation: "animate-float-slow" 
   },
   { 
@@ -48,8 +48,8 @@ export const floatingBadges = [
     icon: "Layers", 
     color: "from-emerald-500 to-teal-500", 
     dotColor: "bg-emerald-400",
-    positionDesktop: "top-10 -right-4 sm:-right-6 lg:-right-8", 
-    positionMobile: "top-10 right-0", 
+    positionDesktop: "top-6 -right-4 sm:-right-6 lg:-right-8", 
+    positionMobile: "-top-2.5 -right-1.5", 
     animation: "animate-float-delayed" 
   },
   { 
@@ -59,7 +59,7 @@ export const floatingBadges = [
     color: "from-amber-400 to-orange-500", 
     dotColor: "bg-amber-400",
     positionDesktop: "bottom-12 -left-4 sm:-left-6 lg:-left-8", 
-    positionMobile: "bottom-12 left-0", 
+    positionMobile: "bottom-8 -left-1.5", 
     animation: "animate-float-delayed" 
   },
   { 
