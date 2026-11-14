@@ -53,10 +53,10 @@ export default function Experience() {
         <div className="relative">
           
           {/* Vertical Central Glowing Neon Line (Desktop) / Left Line (Mobile) */}
-          <div className="absolute top-0 bottom-0 left-6 md:left-1/2 -translate-x-1/2 w-[3px] bg-gradient-to-b from-cyan-500 via-teal-400 to-emerald-500/30 rounded-full shadow-[0_0_15px_rgba(6,182,212,0.4)]" />
+          <div className="absolute top-0 bottom-0 left-4 sm:left-6 md:left-1/2 -translate-x-1/2 w-[3px] bg-gradient-to-b from-cyan-500 via-teal-400 to-emerald-500/30 rounded-full shadow-[0_0_15px_rgba(6,182,212,0.4)]" />
 
           {/* Timeline Items */}
-          <div className="space-y-12 sm:space-y-16">
+          <div className="space-y-10 sm:space-y-16">
             {experienceTimeline.map((item, index) => {
               const IconComponent = iconMap[item.icon] || Code2;
               const isEven = index % 2 === 0;
@@ -70,19 +70,19 @@ export default function Experience() {
                 >
                   
                   {/* Glowing Node Point */}
-                  <div className="absolute left-6 md:left-1/2 -translate-x-1/2 top-4 z-20">
-                    <div className="w-12 h-12 rounded-full bg-white dark:bg-slate-950 border-2 border-cyan-500 dark:border-cyan-400 p-2 shadow-lg shadow-cyan-500/20 dark:shadow-cyan-500/40 flex items-center justify-center group hover:scale-115 hover:border-emerald-500 transition-all duration-300">
-                      <IconComponent size={20} className="text-cyan-600 dark:text-cyan-400 group-hover:text-emerald-500 transition-colors" />
+                  <div className="absolute left-4 sm:left-6 md:left-1/2 -translate-x-1/2 top-4 z-20">
+                    <div className="w-9 h-9 sm:w-12 sm:h-12 rounded-full bg-white dark:bg-slate-950 border-2 border-cyan-500 dark:border-cyan-400 p-1.5 sm:p-2 shadow-lg shadow-cyan-500/20 dark:shadow-cyan-500/40 flex items-center justify-center group hover:scale-115 hover:border-emerald-500 transition-all duration-300">
+                      <IconComponent size={18} className="text-cyan-600 dark:text-cyan-400 group-hover:text-emerald-500 transition-colors" />
                     </div>
                   </div>
 
                   {/* Content Card (Opposite sides on desktop, offset on mobile) */}
                   <div
-                    className={`w-full md:w-[calc(50%-40px)] pl-16 md:pl-0 ${
+                    className={`w-full md:w-[calc(50%-40px)] pl-11 sm:pl-16 md:pl-0 ${
                       isEven ? "md:text-left" : "md:text-left"
                     }`}
                   >
-                    <div className="glass-card rounded-2xl p-6 sm:p-7 border border-slate-200 dark:border-slate-800 hover:border-cyan-500/50 dark:hover:border-cyan-500/40 transition-all duration-300 bg-white dark:bg-slate-900/75 shadow-lg shadow-slate-200/50 dark:shadow-2xl dark:shadow-cyan-950/40 group">
+                    <div className="glass-card rounded-2xl p-4 sm:p-7 border border-slate-200 dark:border-white/10 hover:border-teal-400/40 dark:hover:border-teal-400/40 transition-all duration-300 bg-white dark:bg-slate-900/75 shadow-lg shadow-slate-200/50 dark:shadow-2xl dark:shadow-cyan-950/40 group">
                       
                       {/* Top Badges Header */}
                       <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-slate-100 dark:border-slate-800">

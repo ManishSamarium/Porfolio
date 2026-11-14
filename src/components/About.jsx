@@ -63,7 +63,7 @@ export default function About() {
           
           {/* Left Column: Narrative & Key Highlights (7 cols) */}
           <div className="lg:col-span-7 space-y-8">
-            <div className="glass-card rounded-2xl p-6 sm:p-8 space-y-6 bg-slate-50/80 dark:bg-slate-900/70 border border-slate-200 dark:border-slate-800 shadow-lg shadow-slate-200/50 dark:shadow-none">
+            <div className="glass-card rounded-2xl p-6 sm:p-8 space-y-6 bg-slate-50/80 dark:bg-slate-900/70 border border-slate-200 dark:border-white/10 hover:border-teal-400/30 transition-all duration-300 shadow-lg shadow-slate-200/50 dark:shadow-none">
               <h3 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white flex items-center gap-2.5">
                 <Code2 className="text-cyan-600 dark:text-cyan-400" size={24} />
                 <span>Crafting High-Performance Systems</span>
@@ -131,7 +131,7 @@ export default function About() {
                 return (
                   <div
                     key={index}
-                    className="glass-card rounded-xl p-5 border border-slate-200 dark:border-slate-800/80 hover:border-cyan-500/40 transition-all duration-300 group bg-white dark:bg-slate-900/70 shadow-sm dark:shadow-none"
+                    className="glass-card rounded-xl p-5 border border-slate-200 dark:border-white/10 hover:border-teal-400/40 transition-all duration-300 group bg-white dark:bg-slate-900/70 shadow-sm dark:shadow-none"
                   >
                     <div className="flex items-start gap-4">
                       <div className="p-3 rounded-xl bg-cyan-500/10 border border-cyan-500/20 text-cyan-600 dark:text-cyan-400 group-hover:bg-cyan-500/20 group-hover:scale-105 transition-all shrink-0">

@@ -142,7 +142,7 @@ export default function Navbar() {
 
       {/* Mobile Drawer Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden border-b border-slate-200 dark:border-slate-800/80 bg-white/95 dark:bg-slate-950/95 backdrop-blur-2xl px-4 pt-3 pb-6 space-y-2 animate-fadeInDown shadow-xl">
+        <div className="md:hidden border-b border-slate-200 dark:border-slate-800/80 bg-white/95 dark:bg-slate-950/95 backdrop-blur-2xl px-4 pt-3 pb-6 space-y-2 animate-fadeInDown shadow-xl w-full max-w-full overflow-hidden">
           <div className="grid grid-cols-2 gap-2">
             {navigationLinks.map((link) => {
               const id = link.href.replace("#", "");

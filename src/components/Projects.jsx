@@ -109,7 +109,7 @@ export default function Projects() {
 function ProjectCard({ project }) {
   return (
     <div
-      className="glass-card rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 hover:border-cyan-500/50 dark:hover:border-cyan-500/40 transition-all duration-500 flex flex-col h-full bg-white dark:bg-slate-900/70 shadow-lg shadow-slate-200/50 dark:shadow-2xl dark:shadow-cyan-950/40 group"
+      className="glass-card rounded-2xl overflow-hidden border border-slate-200 dark:border-white/10 hover:border-teal-400/40 dark:hover:border-teal-400/40 transition-all duration-500 flex flex-col h-full bg-white dark:bg-slate-900/70 shadow-lg shadow-slate-200/50 dark:shadow-2xl dark:shadow-cyan-950/40 group"
     >
       {/* Live Preview Image Container with Dynamic Hover Zoom & crisp aspect ratio */}
       <div className="relative w-full h-56 sm:h-64 overflow-hidden bg-slate-100 dark:bg-slate-950 border-b border-slate-100 dark:border-slate-800/80">

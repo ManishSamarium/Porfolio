@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <div
-      className={`min-h-screen transition-colors duration-300 ${
+      className={`min-h-screen w-full max-w-full overflow-x-hidden transition-colors duration-300 ${
         isDark ? "bg-slate-950 text-slate-100" : "bg-slate-50 text-slate-900"
       }`}
     >
@@ -21,7 +21,7 @@ export default function App() {
       <Navbar />
 
       {/* Main Portfolio Sections */}
-      <main>
+      <main className="w-full max-w-full overflow-x-hidden">
         <Hero />
         <About />
         <Projects />

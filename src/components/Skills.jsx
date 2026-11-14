@@ -125,7 +125,7 @@ function SkillCard({ category }) {
   const IconComponent = categoryIconMap[category.id] || Terminal;
 
   return (
-    <div className="glass-card rounded-2xl p-6 border border-slate-200 dark:border-slate-800 hover:border-cyan-500/50 dark:hover:border-cyan-500/40 transition-all duration-300 bg-white dark:bg-slate-900/70 flex flex-col h-full group shadow-md hover:shadow-xl dark:shadow-none dark:hover:shadow-cyan-950/30">
+    <div className="glass-card rounded-2xl p-6 border border-slate-200 dark:border-white/10 hover:border-teal-400/40 dark:hover:border-teal-400/40 transition-all duration-300 bg-white dark:bg-slate-900/70 flex flex-col h-full group shadow-md hover:shadow-xl dark:shadow-none dark:hover:shadow-cyan-950/30">
       
       {/* Category Header */}
       <div className="flex items-center justify-between pb-5 border-b border-slate-100 dark:border-slate-800">

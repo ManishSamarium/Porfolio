@@ -8,10 +8,13 @@ html.dark {
   color-scheme: dark;
 }
 
-/* Smooth scrolling */
-html {
+/* Smooth scrolling & Viewport Overflow Safeguards */
+html, body {
   scroll-behavior: smooth;
   scrollbar-width: thin;
+  overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
 }
 
 /* Custom Scrollbar */
@@ -103,9 +106,22 @@ html {
   }
 }
 
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
 /* ========================================
    UTILITY ANIMATION CLASSES
    ======================================== */
+
+.animate-float {
+  animation: floatGentle 4s ease-in-out infinite;
+}
 
 .animate-float-slow {
   animation: floatSlow 5s ease-in-out infinite;

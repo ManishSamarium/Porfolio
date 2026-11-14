@@ -32,10 +32,46 @@ export const personalInfo = {
 };
 
 export const floatingBadges = [
-  { name: "React 19", icon: "Atom", color: "from-cyan-500 to-blue-500", position: "top-[-10px] left-[-20px]", delay: "0s" },
-  { name: "Node.js", icon: "Server", color: "from-emerald-500 to-green-600", position: "top-[20%] right-[-30px]", delay: "1.5s" },
-  { name: "Python / AI", icon: "Brain", color: "from-amber-400 to-orange-500", position: "bottom-[20%] left-[-25px]", delay: "0.8s" },
-  { name: "OpenCV", icon: "Eye", color: "from-teal-400 to-cyan-600", position: "bottom-[-10px] right-[-15px]", delay: "2.2s" },
+  { 
+    name: "Software Developer", 
+    role: "Core Engineering",
+    icon: "Code2", 
+    color: "from-cyan-500 to-blue-500", 
+    dotColor: "bg-cyan-400",
+    positionDesktop: "top-2 -left-4 sm:-left-6 lg:-left-8", 
+    positionMobile: "top-1 left-0", 
+    animation: "animate-float-slow" 
+  },
+  { 
+    name: "Full-Stack Engineer", 
+    role: "Web & Systems",
+    icon: "Layers", 
+    color: "from-emerald-500 to-teal-500", 
+    dotColor: "bg-emerald-400",
+    positionDesktop: "top-10 -right-4 sm:-right-6 lg:-right-8", 
+    positionMobile: "top-10 right-0", 
+    animation: "animate-float-delayed" 
+  },
+  { 
+    name: "Machine Learning", 
+    role: "Applied AI",
+    icon: "Brain", 
+    color: "from-amber-400 to-orange-500", 
+    dotColor: "bg-amber-400",
+    positionDesktop: "bottom-12 -left-4 sm:-left-6 lg:-left-8", 
+    positionMobile: "bottom-12 left-0", 
+    animation: "animate-float-delayed" 
+  },
+  { 
+    name: "Deep Learning", 
+    role: "Neural Systems",
+    icon: "Cpu", 
+    color: "from-purple-500 to-indigo-500", 
+    dotColor: "bg-purple-400",
+    positionDesktop: "-bottom-2 -right-3 sm:-right-4 lg:-right-6", 
+    positionMobile: "-bottom-2 right-0", 
+    animation: "animate-float-slow" 
+  },
 ];
 
 export const focusAreas = [
