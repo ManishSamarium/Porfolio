@@ -25,7 +25,7 @@ import {
  * 3. Add to your .env file or Vercel Environment Variables:
  *    VITE_WEB3FORMS_ACCESS_KEY=your_access_key_here
  */
-const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || "";
+const WEB3FORMS_ACCESS_KEY = import.meta.env.WEB_WEB3FORMS_ACCESS_KEY || "";
 
 export default function Contact() {
   const { isDark } = useTheme();
